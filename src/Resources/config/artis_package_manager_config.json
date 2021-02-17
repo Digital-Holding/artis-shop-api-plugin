@@ -1,0 +1,20 @@
+{
+  "install": {
+    "config": {
+      "config/packages/_sylius.yaml" : {
+        "add": {
+          "configFile": "@DHArtisShopApiPlugin/Resources/config/config.yml"
+        }
+      }
+    },
+    "routing": {
+      "config/routes/routing.yml" : {
+        "add": {
+          "dh_artis_shop_api_plugin": {
+            "resource": "@DHArtisShopApiPlugin/Resources/config/routing.yml"
+          }
+        }
+      }
+    }
+  }
+}
