@@ -1,0 +1,11 @@
+imports:
+    - { resource: "actions/*.yml"}
+
+services:
+    artis.shop_api_plugin.controller.shop.show_info:
+        class: DH\ArtisShopApiPlugin\Controller\Shop\ShowShopInfoAction
+        public: true
+        arguments:
+            - "@fos_rest.view_handler"
+            - "@sylius.context.channel"
+            - "@artis.shop_api_plugin.factory.shop.shop_info_view_factory"

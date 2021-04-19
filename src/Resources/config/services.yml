@@ -1,0 +1,3 @@
+imports:
+    - { resource: services/controllers.yml }
+    - { resource: services/factories.yml }
