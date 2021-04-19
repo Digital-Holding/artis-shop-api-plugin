@@ -1,6 +1,3 @@
-imports:
-    - { resource: "factories/*.yml" }
-
 services:
     artis.shop_api_plugin.factory.shop.shop_info_view_factory:
         class: DH\ArtisShopApiPlugin\Factory\Shop\ShopInfoViewFactory

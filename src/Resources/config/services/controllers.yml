@@ -1,6 +1,3 @@
-imports:
-    - { resource: "actions/*.yml"}
-
 services:
     artis.shop_api_plugin.controller.shop.show_info:
         class: DH\ArtisShopApiPlugin\Controller\Shop\ShowShopInfoAction
