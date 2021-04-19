@@ -1,2 +1,8 @@
 sylius_shop_api:
     resource: "@SyliusShopApiPlugin/Resources/config/routing.yml"
+
+artis_shop_api_shop_info:
+    path: /shop-api/shop-info
+    methods: [ GET ]
+    defaults:
+        _controller: artis.shop_api_plugin.controller.shop.show_info
